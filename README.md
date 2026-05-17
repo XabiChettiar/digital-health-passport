@@ -42,7 +42,6 @@ Create a `.env` file with your Supabase credentials.
   <img src="screenshots/dashboard.jpeg" width="250"/>
   <img src="screenshots/medical-info.jpeg" width="250"/>
 </p>
-
 ## Author
 
 Developed by XabiChettiar
