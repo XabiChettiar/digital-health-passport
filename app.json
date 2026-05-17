@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Digital Health Passport",
+    "slug": "DigitalHealthPassport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+
+    "scheme": "digitalhealthpassport",
+
+    "androidStatusBar": {
+      "backgroundColor": "#16A34A",
+      "translucent": false,
+      "barStyle": "light-content"
+    },
+
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16A34A"
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow access to scan medical QR codes."
+      }
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#16A34A"
+      },
+      "package": "com.xabichettiar.digitalhealthpassport",
+      "permissions": ["CAMERA"]
+    },
+
+    "plugins": [
+      "expo-font",
+      "expo-web-browser",
+      "expo-camera"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "4ef389d6-6b51-4b1d-a00b-8d6c2c080a0d"
+      }
+    }
+  }
+}
